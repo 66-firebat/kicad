@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "555_badge")(type "KiCad")(uri "${KIPRJMOD}/555_badge.kicad_sym")(options "")(descr ""))
+  (lib (name "s_expression_part")(type "KiCad")(uri "/run/media/${KICAD_USER}/FORGE_CELL/data/assets/kicad/custom_symbols/s_expression_part.kicad_sym")(options "")(descr ""))
+  (lib (name "opencode_symbols")(type "KiCad")(uri "/run/media/${KICAD_USER}/FORGE_CELL/data/assets/kicad/555_badge_backup/opencode_symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "dk_Battery-Holders-Clips-Contacts")(type "Legacy")(uri "/run/media/firebat/FORGE_CELL/data/github_repositories/digikey-kicad-library/digikey-symbols/dk_Battery-Holders-Clips-Contacts.lib")(options "")(descr ""))
+)

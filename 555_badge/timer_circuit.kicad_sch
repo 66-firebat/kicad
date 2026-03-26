@@ -1,0 +1,203 @@
+(kicad_sch (version 20231120) (generator "claude-ai")
+
+  (lib_symbols)
+
+
+  (symbol (lib_id "power:GND") (at 10 170 0) (unit 1) (in_bom no) (on_board no)
+    (property "Reference" "#PWR01" (at 10 174 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Value" "GND" (at 10 174 0) (effects (font (size 1.27 1.27))))
+  )
+  (symbol (lib_id "power:GND") (at 60 170 0) (unit 1) (in_bom no) (on_board no)
+    (property "Reference" "#PWR02" (at 60 174 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Value" "GND" (at 60 174 0) (effects (font (size 1.27 1.27))))
+  )
+  (symbol (lib_id "power:GND") (at 110 170 0) (unit 1) (in_bom no) (on_board no)
+    (property "Reference" "#PWR03" (at 110 174 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Value" "GND" (at 110 174 0) (effects (font (size 1.27 1.27))))
+  )
+  (symbol (lib_id "power:GND") (at 155 170 0) (unit 1) (in_bom no) (on_board no)
+    (property "Reference" "#PWR04" (at 155 174 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Value" "GND" (at 155 174 0) (effects (font (size 1.27 1.27))))
+  )
+  (symbol (lib_id "power:GND") (at 195 170 0) (unit 1) (in_bom no) (on_board no)
+    (property "Reference" "#PWR05" (at 195 174 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Value" "GND" (at 195 174 0) (effects (font (size 1.27 1.27))))
+  )
+  (symbol (lib_id "power:GND") (at 240 170 0) (unit 1) (in_bom no) (on_board no)
+    (property "Reference" "#PWR06" (at 240 174 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Value" "GND" (at 240 174 0) (effects (font (size 1.27 1.27))))
+  )
+
+  (symbol (lib_id "power:VCC") (at 10 60 0) (unit 1) (in_bom no) (on_board no)
+    (property "Reference" "#PWR07" (at 10 56 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Value" "VCC" (at 10 56 0) (effects (font (size 1.27 1.27))))
+  )
+  (symbol (lib_id "power:VCC") (at 60 60 0) (unit 1) (in_bom no) (on_board no)
+    (property "Reference" "#PWR08" (at 60 56 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Value" "VCC" (at 60 56 0) (effects (font (size 1.27 1.27))))
+  )
+  (symbol (lib_id "power:VCC") (at 110 45 0) (unit 1) (in_bom no) (on_board no)
+    (property "Reference" "#PWR09" (at 110 41 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Value" "VCC" (at 110 41 0) (effects (font (size 1.27 1.27))))
+  )
+  (symbol (lib_id "power:VCC") (at 205 55 0) (unit 1) (in_bom no) (on_board no)
+    (property "Reference" "#PWR10" (at 205 51 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Value" "VCC" (at 205 51 0) (effects (font (size 1.27 1.27))))
+  )
+  (symbol (lib_id "power:VCC") (at 230 55 0) (unit 1) (in_bom no) (on_board no)
+    (property "Reference" "#PWR11" (at 230 51 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Value" "VCC" (at 230 51 0) (effects (font (size 1.27 1.27))))
+  )
+
+  (symbol (lib_id "Connector:Conn_01x02_Pin") (at 10 115 0) (unit 1) (in_bom yes) (on_board yes)
+    (property "Reference" "BAT1" (at 10 108 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "EG1218" (at 10 111 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 10 115 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  )
+
+  (symbol (lib_id "Device:SW_Push") (at 30 65 0) (unit 1) (in_bom yes) (on_board yes)
+    (property "Reference" "S1" (at 30 61 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "SW_Push" (at 30 68 0) (effects (font (size 1.27 1.27))))
+  )
+
+  (symbol (lib_id "Device:R") (at 60 80 0) (unit 1) (in_bom yes) (on_board yes)
+    (property "Reference" "R1" (at 62.5 80 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "22" (at 62.5 82.5 0) (effects (font (size 1.27 1.27)) (justify left)))
+  )
+
+  (symbol (lib_id "Device:R") (at 60 100 0) (unit 1) (in_bom yes) (on_board yes)
+    (property "Reference" "R2" (at 62.5 100 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "330" (at 62.5 102.5 0) (effects (font (size 1.27 1.27)) (justify left)))
+  )
+
+  (symbol (lib_id "Device:R") (at 60 120 0) (unit 1) (in_bom yes) (on_board yes)
+    (property "Reference" "R3" (at 62.5 120 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "330" (at 62.5 122.5 0) (effects (font (size 1.27 1.27)) (justify left)))
+  )
+
+  (symbol (lib_id "Device:C") (at 60 148 0) (unit 1) (in_bom yes) (on_board yes)
+    (property "Reference" "C1" (at 62.5 145 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "10uF" (at 62.5 150 0) (effects (font (size 1.27 1.27)) (justify left)))
+  )
+
+  (symbol (lib_id "Timer:NE555") (at 110 100 0) (unit 1) (in_bom yes) (on_board yes)
+    (property "Reference" "U1" (at 110 88 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "7555" (at 110 112 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "Package_DIP:DIP-8_W7.62mm" (at 110 100 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  )
+
+  (symbol (lib_id "Device:R") (at 160 102.5 90) (unit 1) (in_bom yes) (on_board yes)
+    (property "Reference" "R4" (at 160 99 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "22k" (at 160 104 0) (effects (font (size 1.27 1.27))))
+  )
+
+  (symbol (lib_id "Device:R") (at 170 130 0) (unit 1) (in_bom yes) (on_board yes)
+    (property "Reference" "R5" (at 172.5 128 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100k" (at 172.5 133 0) (effects (font (size 1.27 1.27)) (justify left)))
+  )
+
+  (symbol (lib_id "Device:C") (at 185 138 0) (unit 1) (in_bom yes) (on_board yes)
+    (property "Reference" "C2" (at 187.5 135 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100uF" (at 187.5 141 0) (effects (font (size 1.27 1.27)) (justify left)))
+  )
+
+  (symbol (lib_id "Device:R") (at 200 102.5 90) (unit 1) (in_bom yes) (on_board yes)
+    (property "Reference" "R6" (at 200 99 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "10k" (at 200 104 0) (effects (font (size 1.27 1.27))))
+  )
+
+  (symbol (lib_id "Device:Q_NPN_BCE") (at 215 105 0) (unit 1) (in_bom yes) (on_board yes)
+    (property "Reference" "Q1" (at 221 103 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "2N3904" (at 221 106 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "Package_TO_SOT_THT:TO-92_Inline" (at 215 105 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  )
+
+  (symbol (lib_id "Device:R") (at 205 70 0) (unit 1) (in_bom yes) (on_board yes)
+    (property "Reference" "R7" (at 207.5 68 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100" (at 207.5 72.5 0) (effects (font (size 1.27 1.27)) (justify left)))
+  )
+
+  (symbol (lib_id "Device:R") (at 230 70 0) (unit 1) (in_bom yes) (on_board yes)
+    (property "Reference" "R8" (at 232.5 68 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "100" (at 232.5 72.5 0) (effects (font (size 1.27 1.27)) (justify left)))
+  )
+
+  (symbol (lib_id "Device:LED") (at 205 88 0) (unit 1) (in_bom yes) (on_board yes)
+    (property "Reference" "D1" (at 207.5 85 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "RED" (at 207.5 91 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Footprint" "LED_THT:LED_D5.0mm" (at 205 88 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  )
+
+  (symbol (lib_id "Device:LED") (at 230 88 0) (unit 1) (in_bom yes) (on_board yes)
+    (property "Reference" "D2" (at 232.5 85 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "RED" (at 232.5 91 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Footprint" "LED_THT:LED_D5.0mm" (at 230 88 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  )
+
+
+  (wire (pts (xy 10 110) (xy 10 65)))
+  (wire (pts (xy 10 65) (xy 25 65)))
+  (wire (pts (xy 35 65) (xy 60 65)))
+  (wire (pts (xy 60 65) (xy 60 76)))
+
+  (wire (pts (xy 10 120) (xy 10 170)))
+
+  (wire (pts (xy 60 65) (xy 60 76)))
+
+  (wire (pts (xy 60 84) (xy 60 96)))
+  (wire (pts (xy 60 84) (xy 97.5 84)))
+
+  (wire (pts (xy 60 104) (xy 60 108)))
+  (wire (pts (xy 60 104) (xy 97.5 105)))
+  (wire (pts (xy 60 108) (xy 97.5 102.5)))
+
+  (wire (pts (xy 60 124) (xy 60 170)))
+
+  (wire (pts (xy 60 144) (xy 60 124)))
+  (wire (pts (xy 60 152) (xy 60 170)))
+
+  (wire (pts (xy 110 45) (xy 110 86)))
+
+  (wire (pts (xy 110 114) (xy 110 170)))
+
+  (wire (pts (xy 97.5 95) (xy 90 95)))
+  (wire (pts (xy 90 95) (xy 90 45)))
+  (wire (pts (xy 90 45) (xy 110 45)))
+
+  (wire (pts (xy 122.5 100) (xy 130 100)))
+  (wire (pts (xy 130 100) (xy 130 170)))
+
+  (wire (pts (xy 122.5 102.5) (xy 152 102.5)))
+
+  (wire (pts (xy 168 102.5) (xy 170 102.5)))
+  (wire (pts (xy 170 102.5) (xy 170 126)))
+  (wire (pts (xy 170 102.5) (xy 192 102.5)))
+
+  (wire (pts (xy 170 134) (xy 170 170)))
+
+  (wire (pts (xy 185 134) (xy 185 102.5)))
+  (wire (pts (xy 185 102.5) (xy 170 102.5)))
+
+  (wire (pts (xy 185 142) (xy 185 170)))
+
+  (wire (pts (xy 208 102.5) (xy 210 102.5)))
+
+  (wire (pts (xy 215 100) (xy 215 96)))
+  (wire (pts (xy 215 96) (xy 205 96)))
+  (wire (pts (xy 205 96) (xy 230 96)))
+  (wire (pts (xy 205 92) (xy 205 96)))
+  (wire (pts (xy 230 92) (xy 230 96)))
+
+  (wire (pts (xy 205 84) (xy 205 74)))
+
+  (wire (pts (xy 205 66) (xy 205 55)))
+
+  (wire (pts (xy 230 84) (xy 230 74)))
+
+  (wire (pts (xy 230 66) (xy 230 55)))
+
+  (wire (pts (xy 215 110) (xy 215 170)))
+
+  (no_connect (at 130 100))
+
+)

@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Library")(type "KiCad")(uri "/run/media/wytchblade/FORGE_CELL/data/aqua_research/kiCAD/555_timer/Library.pretty")(options "")(descr ""))
+  (lib (name "foorprints")(type "KiCad")(uri "${KIPRJMOD}/foorprints.pretty")(options "")(descr ""))
+  (lib (name "555_footprints")(type "KiCad")(uri "${KIPRJMOD}/555_footprints.pretty")(options "")(descr ""))
+)

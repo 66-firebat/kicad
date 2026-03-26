@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "555_badge")(type "KiCad")(uri "${KIPRJMOD}/555_badge.kicad_sym")(options "")(descr ""))
+  (lib (name "s_expression_part")(type "KiCad")(uri "/run/media/wytchblade/FORGE_CELL/data/assets/kicad/custom_symbols/s_expression_part.kicad_sym")(options "")(descr ""))
+)
